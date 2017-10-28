@@ -8,11 +8,13 @@ Implement octal to decimal conversion.  Given an octal input
 string, your program should produce a decimal output.
 
 ## Note
+
 - Implement the conversion yourself.
   Do not use something else to perform the conversion for you.
 - Treat invalid input as octal 0.
 
 ## About Octal (Base-8)
+
 Decimal is a base-10 system.
 
 A number 233 in base 10 notation can be understood
@@ -25,7 +27,8 @@ as a linear combination of powers of 10:
 - All these values are summed.
 
 So:
-```
+
+```text
    233 # decimal
  = 2*10^2 + 3*10^1 + 3*10^0
  = 2*100  + 3*10   + 3*1
@@ -34,7 +37,8 @@ So:
 Octal is similar, but uses powers of 8 rather than powers of 10.
 
 So:
-```
+
+```text
    233 # octal
  = 2*8^2 + 3*8^1 + 3*8^0
  = 2*64  + 3*8   + 3*1
@@ -42,19 +46,20 @@ So:
  = 155
 ```
 
+# Running the tests
 
-To run the tests:
+You can run all the tests for an exercise by entering
 
 ```sh
 $ gradle test
 ```
 
-For more detailed info about the Java track see the [help page](http://exercism.io/languages/java).
-
+in your terminal.
 
 ## Source
 
 All of Computer Science [http://www.wolframalpha.com/input/?i=base+8](http://www.wolframalpha.com/input/?i=base+8)
 
 ## Submitting Incomplete Solutions
+
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
